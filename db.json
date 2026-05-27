@@ -1,0 +1,237 @@
+{
+  "pokemons": [
+    {
+      "name": "Pikachu",
+      "attack": 55,
+      "defense": 40,
+      "speed": 90,
+      "img": "https://img.pokemondb.net/sprites/home/normal/pikachu.png"
+    },
+    {
+      "name": "Charizard",
+      "attack": 84,
+      "defense": 78,
+      "speed": 100,
+      "img": "https://img.pokemondb.net/sprites/home/normal/charizard.png"
+    },
+    {
+      "name": "Blastoise",
+      "attack": 83,
+      "defense": 100,
+      "speed": 78,
+      "img": "https://img.pokemondb.net/sprites/home/normal/blastoise.png"
+    },
+    {
+      "name": "Venusaur",
+      "attack": 82,
+      "defense": 83,
+      "speed": 80,
+      "img": "https://img.pokemondb.net/sprites/home/normal/venusaur.png"
+    },
+    {
+      "name": "Gengar",
+      "attack": 65,
+      "defense": 60,
+      "speed": 110,
+      "img": "https://img.pokemondb.net/sprites/home/normal/gengar.png"
+    },
+    {
+      "name": "Lucario",
+      "attack": 110,
+      "defense": 70,
+      "speed": 90,
+      "img": "https://img.pokemondb.net/sprites/home/normal/lucario.png"
+    },
+    {
+      "name": "Dragonite",
+      "attack": 134,
+      "defense": 95,
+      "speed": 80,
+      "img": "https://img.pokemondb.net/sprites/home/normal/dragonite.png"
+    },
+    {
+      "name": "Mewtwo",
+      "attack": 150,
+      "defense": 90,
+      "speed": 130,
+      "img": "https://img.pokemondb.net/sprites/home/normal/mewtwo.png"
+    },
+    {
+      "name": "Lugia",
+      "attack": 90,
+      "defense": 130,
+      "speed": 110,
+      "img": "https://img.pokemondb.net/sprites/home/normal/lugia.png"
+    },
+    {
+      "name": "Greninja",
+      "attack": 95,
+      "defense": 67,
+      "speed": 122,
+      "img": "https://img.pokemondb.net/sprites/home/normal/greninja.png"
+    },
+    {
+      "name": "Garchomp",
+      "attack": 130,
+      "defense": 95,
+      "speed": 102,
+      "img": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
+    },
+    {
+      "name": "Metagross",
+      "attack": 135,
+      "defense": 130,
+      "speed": 70,
+      "img": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+    },
+    {
+      "name": "Gardevoir",
+      "attack": 85,
+      "defense": 65,
+      "speed": 80,
+      "img": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png"
+    },
+    {
+      "name": "Tyranitar",
+      "attack": 134,
+      "defense": 110,
+      "speed": 61,
+      "img": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png"
+    },
+    {
+      "name": "Rayquaza",
+      "attack": 150,
+      "defense": 90,
+      "speed": 95,
+      "img": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png"
+    },
+    {
+      "name": "Snorlax",
+      "attack": 110,
+      "defense": 65,
+      "speed": 30,
+      "img": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+    },
+    {
+      "name": "Gyarados",
+      "attack": 125,
+      "defense": 79,
+      "speed": 81,
+      "img": "https://img.pokemondb.net/sprites/home/normal/gyarados.png"
+    },
+    {
+      "name": "Alakazam",
+      "attack": 50,
+      "defense": 45,
+      "speed": 120,
+      "img": "https://img.pokemondb.net/sprites/home/normal/alakazam.png"
+    },
+    {
+      "name": "Infernape",
+      "attack": 104,
+      "defense": 71,
+      "speed": 108,
+      "img": "https://img.pokemondb.net/sprites/home/normal/infernape.png"
+    },
+    {
+      "name": "Zoroark",
+      "attack": 105,
+      "defense": 60,
+      "speed": 105,
+      "img": "https://img.pokemondb.net/sprites/home/normal/zoroark.png"
+    },
+    {
+      "name": "Diancie",
+      "attack": 100,
+      "defense": 150,
+      "speed": 50,
+      "img": "https://img.pokemondb.net/sprites/home/normal/diancie.png"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "TIME MAT",
+      "team": [
+        {
+          "name": "Greninja",
+          "attack": 95,
+          "defense": 67,
+          "speed": 122,
+          "img": "https://img.pokemondb.net/sprites/home/normal/greninja.png"
+        },
+        {
+          "name": "Zoroark",
+          "attack": 105,
+          "defense": 60,
+          "speed": 105,
+          "img": "https://img.pokemondb.net/sprites/home/normal/zoroark.png"
+        },
+        {
+          "name": "Lugia",
+          "attack": 90,
+          "defense": 130,
+          "speed": 110,
+          "img": "https://img.pokemondb.net/sprites/home/normal/lugia.png"
+        },
+        {
+          "name": "Lucario",
+          "attack": 110,
+          "defense": 70,
+          "speed": 90,
+          "img": "https://img.pokemondb.net/sprites/home/normal/lucario.png"
+        },
+        {
+          "name": "Rayquaza",
+          "attack": 150,
+          "defense": 90,
+          "speed": 95,
+          "img": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png"
+        },
+        {
+          "name": "Diancie",
+          "attack": 100,
+          "defense": 150,
+          "speed": 50,
+          "img": "https://img.pokemondb.net/sprites/home/normal/diancie.png"
+        }
+      ],
+      "score": 1789
+    },
+    {
+      "id": 2,
+      "name": "TIME DO RED",
+      "team": [
+        {
+          "name": "Blastoise",
+          "attack": 83,
+          "defense": 100,
+          "speed": 78,
+          "img": "https://img.pokemondb.net/sprites/home/normal/blastoise.png"
+        },
+        {
+          "name": "Charizard",
+          "attack": 84,
+          "defense": 78,
+          "speed": 100,
+          "img": "https://img.pokemondb.net/sprites/home/normal/charizard.png"
+        },
+        {
+          "name": "Venusaur",
+          "attack": 82,
+          "defense": 83,
+          "speed": 80,
+          "img": "https://img.pokemondb.net/sprites/home/normal/venusaur.png"
+        },
+        {
+          "name": "Pikachu",
+          "attack": 55,
+          "defense": 40,
+          "speed": 90,
+          "img": "https://img.pokemondb.net/sprites/home/normal/pikachu.png"
+        }
+      ],
+      "score": 953
+    }
+  ]
+}

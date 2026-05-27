@@ -1,0 +1,225 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.box {
+    background: #222;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pokemon-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pokemon-card img {
+    width: 50px;
+}
+
+#suggestions {
+    background: #333;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+.modal-pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.modal-pokemon img {
+    width: 40px;
+}
+
+.tit {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+    letter-spacing: 2px;
+}
+
+.saved-team {
+    background: #333;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.saved-team:hover {
+    transform: scale(1.05);
+    background: #444;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.4);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    filter: drop-shadow(0 0 8px rgba(255, 204, 0, 0.6));
+    transition: 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.delete-btn {
+    background: crimson;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    background: red;
+    transform: scale(1.1);
+}
+
+.saved-team {
+    background: #333;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saved-team span {
+    cursor: pointer;
+    flex: 1;
+}
+
+.saved-team:hover {
+    transform: scale(1.02);
+    background: #444;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.4);
+}
+
+/* POPUP */
+
+.popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+.popup-content {
+    background: #222;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+
+    animation: popupShow 0.2s ease;
+}
+
+.popup-content h2 {
+    color: #ffcc00;
+}
+
+.popup-content input {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.popup-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-buttons button {
+    flex: 1;
+    margin: 5px;
+}
+
+@keyframes popupShow {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

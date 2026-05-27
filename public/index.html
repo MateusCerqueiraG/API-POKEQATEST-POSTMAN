@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Team Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="logo">
+    <img src="POKEQATEST.png" alt="logo">
+    </div>
+
+    <div class="tit">Monte seu time Pokémon</div>
+
+    <div class="box">
+        <input id="pokemonInput" oninput="autoComplete()" placeholder="Digite um Pokémon">
+        <div id="suggestions"></div>
+        <button onclick="addPokemon()">Adicionar</button>
+    </div>
+
+    <div class="box">
+        <h2>Seu time</h2>
+        <div id="team"></div>
+    </div>
+
+    <button onclick="calculateTeam()">Calcular Score</button>
+    <button onclick="saveTeam()">Salvar Time</button>
+
+    <h2 id="score">Score: 0</h2>
+
+    <div class="box">
+        <h2>Times salvos</h2>
+        <div id="savedTeams"></div>
+    </div>
+
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <span onclick="closeModal()" class="close">X</span>
+        <h2 id="modalTitle"></h2>
+        <h3 id="modalScore"></h3>
+        <div id="modalPokemons"></div>
+    </div>
+</div>
+
+<!-- CUSTOM POPUP -->
+<div id="customPopup" class="popup hidden">
+    <div class="popup-content">
+
+        <h2 id="popupTitle"></h2>
+
+        <p id="popupMessage"></p>
+
+        <input
+            type="text"
+            id="popupInput"
+            class="hidden"
+            placeholder="Digite aqui..."
+        >
+
+        <div class="popup-buttons">
+            <button id="popupConfirm">OK</button>
+            <button onclick="closePopup()">Cancelar</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
